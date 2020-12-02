@@ -1,0 +1,15 @@
+# 47% (47/100) chance to be successful
+scoreboard players set .chance rng 47
+scoreboard players set .maximum rng 100
+
+# ~26.97% (123/456) chance to be successful
+scoreboard players set .chance rng 123
+scoreboard players set .maximum rng 456
+
+# 100% (563/563) chance to be successful
+scoreboard players set .chance rng 563
+scoreboard players set .maximum rng 563
+
+# 0% (0/229) chance to be successful
+scoreboard players set .chance rng 0
+scoreboard players set .maximum rng 229
