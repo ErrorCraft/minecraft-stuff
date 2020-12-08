@@ -1,55 +1,55 @@
 ```
 item
-	block
-		<pos: block_pos>
-			clear
-				[item: item_predicate]
-					[maxCount: integer]
-			copy
-				<slot: item_slot>
-					block
-						<source: block_pos>
-							<sourceSlot: item_slot>
-								[modifier: resource_location]
-					entity
-						<source: entity>
-							<sourceSlot: item_slot>
-								[modifier: resource_location]
-			give
-				<item: item_stack>
-					[count: integer]
-			modify
-				<slot: item_slot>
-					<modifier: resource_location>
-			replace
-				<slot: item_slot>
-					<item: item_stack>
-						[count: integer]
-	entity
-		<targets: entity>
-			clear
-				[item: item_predicate]
-					[maxCount: integer]
-			copy
-				<slot: item_slot>
-					block
-						<source: block_pos>
-							<sourceSlot: item_slot>
-								[modifier: resource_location]
-					entity
-						<source: entity>
-							<sourceSlot: item_slot>
-								[modifier: resource_location]
-			give
-				<item: item_stack>
-					[count: integer]
-			modify
-				<slot: item_slot>
-					<modifier: resource_location>
-			replace
-				<slot: item_slot>
-					<item: item_stack>
-						[count: integer]
+    block
+        <pos: block_pos>
+            clear
+                [item: item_predicate]
+                    [maxCount: integer]
+            copy
+                <slot: item_slot>
+                    block
+                        <source: block_pos>
+                            <sourceSlot: item_slot>
+                                [modifier: resource_location]
+                    entity
+                        <source: entity>
+                            <sourceSlot: item_slot>
+                                [modifier: resource_location]
+            give
+                <item: item_stack>
+                    [count: integer]
+            modify
+                <slot: item_slot>
+                    <modifier: resource_location>
+            replace
+                <slot: item_slot>
+                    <item: item_stack>
+                        [count: integer]
+    entity
+        <targets: entity>
+            clear
+                [item: item_predicate]
+                    [maxCount: integer]
+            copy
+                <slot: item_slot>
+                    block
+                        <source: block_pos>
+                            <sourceSlot: item_slot>
+                                [modifier: resource_location]
+                    entity
+                        <source: entity>
+                            <sourceSlot: item_slot>
+                                [modifier: resource_location]
+            give
+                <item: item_stack>
+                    [count: integer]
+            modify
+                <slot: item_slot>
+                    <modifier: resource_location>
+            replace
+                <slot: item_slot>
+                    <item: item_stack>
+                        [count: integer]
 ```
 ```
 item block ~ ~ ~ clear
