@@ -2,7 +2,7 @@
 teleport
     entity
         <targets: entity>
-            towards
+            to
                 <destination: entity>
             <location: vec3>
                 facing
@@ -18,7 +18,7 @@ teleport
 ```
 |New|Original|
 |---|---|
-|`teleport entity @e towards @s`|`teleport @e @s`|
+|`teleport entity @e to @s`|`teleport @e @s`|
 |`teleport entity @e ~ ~ ~`|`teleport @e ~ ~ ~`|
 |`teleport entity @e ~ ~ ~ facing entity @s`|`teleport @e ~ ~ ~ facing entity @s`|
 |`teleport entity @e ~ ~ ~ facing entity @s eyes`|`teleport @e ~ ~ ~ facing entity @s eyes`|
