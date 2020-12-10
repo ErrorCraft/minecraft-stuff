@@ -11,10 +11,9 @@ teleport
                             [facingAnchor: entity_anchor]
                     <facingLocation: vec3>
                 [rotation: rotation]
-    towards
-        entity
-            <destination: entity>
-        <location: vec3>
+    to
+        <destination: entity>
+    <location: vec3>
 ```
 |New|Original|
 |---|---|
@@ -24,5 +23,5 @@ teleport
 |`teleport entity @e ~ ~ ~ facing entity @s eyes`|`teleport @e ~ ~ ~ facing entity @s eyes`|
 |`teleport entity @e ~ ~ ~ facing ~ ~ ~`|`teleport @e ~ ~ ~ facing entity ~ ~ ~`|
 |`teleport entity @e ~ ~ ~ ~ ~`|`teleport @e ~ ~ ~ ~ ~`|
-|`teleport towards entity @s`|`teleport @s`|
-|`teleport towards ~ ~ ~`|`teleport ~ ~ ~`|
+|`teleport to @s`|`teleport @s`|
+|`teleport ~ ~ ~`|`teleport ~ ~ ~`|
