@@ -1,0 +1,38 @@
+{
+	"display": {
+		"model": "namespace:example",
+		"creative_inventory": {
+			"group": "minecraft:blocks",
+			"index": 10
+		},
+		"name": "example.translation.string",
+		"description": {"translate": "example.description.translation.string"}
+		"rarity": "common"
+	},
+	"item": {
+		"max_count": 64,
+		"fire_resistant": false,
+		"tool": {
+			"durability": 100,
+			"type": "shovel"
+		},
+		"food": {
+			"nutrition": 3,
+			"saturation": 0.3,
+			"always_edible": false,
+			"eating_speed": 1.0,
+			"effects": [
+				{
+					"chance": 0.75,
+					"effect": {
+						"id": "minecraft:absorption",
+						"amplifier": 0,
+						"duration": 600,
+						"ambient": false,
+						"visible": true
+					}
+				}
+			]
+		}
+	}
+}
