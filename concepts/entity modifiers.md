@@ -55,7 +55,7 @@ Example:
         "text": "Hello World",
         "color": "red",
         "bold": true
-    }
+    },
     "visible": true
 }
 ```
