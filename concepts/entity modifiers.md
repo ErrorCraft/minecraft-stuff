@@ -21,7 +21,7 @@ Example:
 ```json
 {
     "function": "minecraft:set_health",
-    "health": 5.0
+    "health": 5.0,
     "add": true
 }
 ```
@@ -36,7 +36,7 @@ Example:
 ```json
 {
     "function": "minecraft:set_hunger",
-    "hunger": -2
+    "hunger": -2,
     "add": true
 }
 ```
