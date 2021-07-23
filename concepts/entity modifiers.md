@@ -70,3 +70,39 @@ Example:
     "visible": true
 }
 ```
+
+### `minecraft:set_air_time`
+
+Sets the air time of an entity.
+
+**`time`:** A number provider. Specifies the air time to set.
+
+**`add`:** An optional boolean. If `true`, change will be relative to the current air time.
+
+Example:
+
+```json
+{
+    "function": "minecraft:set_air_time`",
+    "time": 100,
+    "add": true
+}
+```
+
+### `minecraft:set_fire_time`
+
+Sets the fire time of a player.
+
+**`time`:** A number provider. Specifies the fire time to set.
+
+**`add`:** An optional boolean. If `true`, change will be relative to the current fire time.
+
+Example:
+
+```json
+{
+    "function": "minecraft:set_fire_time",
+    "time": 40,
+    "add": false
+}
+```
