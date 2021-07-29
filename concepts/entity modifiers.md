@@ -17,7 +17,7 @@ Entity modifiers can be found under `data/namespace/modifiers/entity`. The entit
 
 Sets the health of an entity.
 
-**`hunger`:** A number provider. Specifies the health to set.
+**`health`:** A number provider. Specifies the health to set.
 
 **`add`:** An optional boolean. If `true`, change will be relative to the current health.
 
