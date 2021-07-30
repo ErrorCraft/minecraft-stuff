@@ -49,9 +49,9 @@ Example:
 }
 ```
 
-### `minecraft:set_name`
+### `minecraft:set_display_name`
 
-Sets the name of an entity. (Figure out a way to reset the name, maybe a `minecraft:reset_name` function?)
+Sets the display name of an entity. (Figure out a way to reset the name, maybe a `minecraft:reset_display_name` function?)
 
 **`name`:** A text component. Advanced components are resolved using the entity that is being modified.
 
@@ -61,7 +61,7 @@ Example:
 
 ```json
 {
-    "function": "minecraft:set_name",
+    "function": "minecraft:set_display_name",
     "name": {
         "text": "Hello World",
         "color": "red",
