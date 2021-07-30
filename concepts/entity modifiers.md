@@ -91,7 +91,7 @@ Example:
 
 ### `minecraft:set_fire_time`
 
-Sets the fire time of a player.
+Sets the fire time of an entity.
 
 **`time`:** A number provider. Specifies the fire time to set.
 
