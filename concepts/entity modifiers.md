@@ -106,3 +106,19 @@ Example:
     "add": false
 }
 ```
+
+### `minecraft:set_invulnerable`
+
+Sets the invulnerability of an entity.
+
+**`invulnerable`:** A boolean. If `true`, the entity will be invulnerable and won't take any damage.
+
+Example:
+
+```json
+{
+    "function": "minecraft:set_invulnerable",
+    "invulnerable": true
+}
+```
+Add `minecraft:set_invulnerable` to the entity modifiers concept
