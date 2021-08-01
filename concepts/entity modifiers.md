@@ -121,4 +121,3 @@ Example:
     "invulnerable": true
 }
 ```
-Add `minecraft:set_invulnerable` to the entity modifiers concept
