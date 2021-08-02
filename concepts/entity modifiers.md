@@ -121,3 +121,21 @@ Example:
     "invulnerable": true
 }
 ```
+
+### `minecraft:set_absorption`
+
+Sets the absorption of an entity.
+
+**`absorption`:** A number provider. Specifies the absorption to set.
+
+**`add`:** An optional boolean. If `true`, change will be relative to the current absorption.
+
+Example:
+
+```json
+{
+    "function": "minecraft:set_absorption",
+    "absorption": 2.0,
+	"add": true
+}
+```
