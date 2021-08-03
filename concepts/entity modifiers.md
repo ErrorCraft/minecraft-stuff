@@ -33,7 +33,7 @@ Example:
 
 ### `minecraft:set_hunger`
 
-Sets the hunger of a player. (Figure out a way to set saturation, maybe something like a `minecraft:set_saturation` or `minecraft:set_hunger_saturation` function?)
+Sets the hunger of a player.
 
 **`hunger`:** A number provider. Specifies the hunger to set.
 
@@ -137,5 +137,23 @@ Example:
     "function": "minecraft:set_absorption",
     "absorption": 2.0,
 	"add": true
+}
+```
+
+### `minecraft:set_saturation`
+
+Sets the saturation of a player.
+
+**`saturation`:** A number provider. Specifies the saturation to set.
+
+**`add`:** An optional boolean. If `true`, change will be relative to the current saturation.
+
+Example:
+
+```json
+{
+    "function": "minecraft:set_hunger",
+    "saturation": 1.5,
+    "add": true
 }
 ```
