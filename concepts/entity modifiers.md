@@ -157,3 +157,18 @@ Example:
     "add": true
 }
 ```
+
+### `minecraft:set_silent`
+
+Sets whether the entity is silent or not.
+
+**`silent`:** A boolean. If `true`, the entity won't make any sounds.
+
+Example:
+
+```json
+{
+    "function": "minecraft:set_silent",
+    "silent": true
+}
+```
