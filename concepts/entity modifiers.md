@@ -49,6 +49,24 @@ Example:
 }
 ```
 
+### `minecraft:set_saturation`
+
+Sets the saturation of a player.
+
+**`saturation`:** A number provider. Specifies the saturation to set.
+
+**`add`:** An optional boolean. If `true`, change will be relative to the current saturation.
+
+Example:
+
+```json
+{
+    "function": "minecraft:set_saturation",
+    "saturation": 1.5,
+    "add": true
+}
+```
+
 ### `minecraft:set_display_name`
 
 Sets the display name of an entity. (Figure out a way to reset the name, maybe a `minecraft:reset_display_name` function?)
@@ -137,24 +155,6 @@ Example:
     "function": "minecraft:set_absorption",
     "absorption": 2.0,
 	"add": true
-}
-```
-
-### `minecraft:set_saturation`
-
-Sets the saturation of a player.
-
-**`saturation`:** A number provider. Specifies the saturation to set.
-
-**`add`:** An optional boolean. If `true`, change will be relative to the current saturation.
-
-Example:
-
-```json
-{
-    "function": "minecraft:set_hunger",
-    "saturation": 1.5,
-    "add": true
 }
 ```
 
