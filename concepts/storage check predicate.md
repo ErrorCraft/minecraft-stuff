@@ -21,8 +21,8 @@ The format is not too complex, it only takes a `check` value, which is a storage
 {
     "function": "minecraft:storage_check",
     "check": {
-		"type": "...",
-		...
-	}
+        "type": "...",
+        "other_properties": "..."
+    }
 }
 ```
