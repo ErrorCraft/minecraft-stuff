@@ -96,3 +96,18 @@ Example:
     }
 }
 ```
+
+## Storage Providers
+
+A storage provider is used to target storage NBT with a specific path.
+
+**`storage`:** A resource location specifying the storage ID to get the NBT from.\
+**`path`:** An NBT path pointing to the value.
+
+Example:
+```json
+{
+    "storage": "example:storage",
+    "path": "path.to.item"
+}
+```
