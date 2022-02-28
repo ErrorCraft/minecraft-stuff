@@ -97,6 +97,29 @@ Example:
 }
 ```
 
+### `minecraft:array_contains`
+
+Checks if an NBT collection (list or array) contains an item.
+If `collection` is not a collection, it returns `false`.
+
+**`collection`:** A storage provider for the collection.\
+**`item`:** A storage provider for the item to check.
+
+Example:
+```json
+{
+    "function": "minecraft:array_contains",
+    "collection": {
+        "storage": "example:storage",
+        "path": "path.to.collection"
+    },
+    "item": {
+        "storage": "example:storage",
+        "path": "path.to.item"
+    }
+}
+```
+
 ## Storage Providers
 
 A storage provider is used to target storage NBT with a specific path.
