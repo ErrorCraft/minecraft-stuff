@@ -26,3 +26,73 @@ The format is not too complex, it only takes a `check` value, which is a storage
     }
 }
 ```
+
+## Storage Comparers
+
+### `minecraft:equals`
+
+Checks if two NBT values are equal.
+
+**`left`:** A storage provider. The left side to check for.\
+**`right`:** A storage provider. The right side to check for.
+
+Example:
+```json
+{
+    "function": "minecraft:equals",
+    "left": {
+        "storage": "example:storage",
+        "path": "path.to.item"
+    },
+    "right": {
+        "storage": "example:storage",
+        "path": "path.to.other.item"
+    }
+}
+```
+
+### `minecraft:greater_than`
+
+Checks if a numerical NBT value is greater than the other.
+If either `left` or `right` is not numerical, it returns `false`.
+
+**`left`:** A storage provider. The left side to check for.\
+**`right`:** A storage provider. The right side to check for.
+
+Example:
+```json
+{
+    "function": "minecraft:greater_than",
+    "left": {
+        "storage": "example:storage",
+        "path": "path.to.item"
+    },
+    "right": {
+        "storage": "example:storage",
+        "path": "path.to.other.item"
+    }
+}
+```
+
+### `minecraft:smaller_than`
+
+Checks if a numerical NBT value is smaller than the other.
+If either `left` or `right` is not numerical, it returns `false`.
+
+**`left`:** A storage provider. The left side to check for.\
+**`right`:** A storage provider. The right side to check for.
+
+Example:
+```json
+{
+    "function": "minecraft:smaller_than",
+    "left": {
+        "storage": "example:storage",
+        "path": "path.to.item"
+    },
+    "right": {
+        "storage": "example:storage",
+        "path": "path.to.other.item"
+    }
+}
+```
